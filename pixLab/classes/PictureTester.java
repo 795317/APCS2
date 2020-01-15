@@ -46,10 +46,14 @@ public class PictureTester
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
-    Picture emmaWatson = new Picture("Emma-Watson-landscape-920x690.jpg");
-    emmaWatson.edgeDetection(13);
-    emmaWatson.edgeDetection2(13);
-    emmaWatson.explore();
+    //Picture emmaWatson = new Picture("Emma-Watson-landscape-920x690.jpg");
+    //emmaWatson.edgeDetection(13);
+    //emmaWatson.edgeDetection2(13);
+    //emmaWatson.explore();
+    Picture tajMahal = new Picture("Taj_Mahal_in_March_2004.jpg");
+    tajMahal.edgeDetection(13);
+    tajMahal.edgeDetection2(13);
+    tajMahal.explore();
   }
   
   /** Main method for testing.  Every class can have a main
