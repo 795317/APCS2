@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ghost
+comment1.params=name
+comment1.target=Ghost(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ talk()
+numComments=3

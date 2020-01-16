@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Monster
+comment1.params=
+comment1.target=Monster()
+comment2.params=nm
+comment2.target=Monster(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ talk()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
