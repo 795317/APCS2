@@ -8,121 +8,125 @@ import java.util.ArrayList;
  */
 public class CelebrityGame
 {
-	/**
-	 * A reference to a Celebrity or subclass instance.
-	 */
+    /**
+     * A reference to a Celebrity or subclass instance.
+     */
 
-	/**
-	 * The GUI frame for the Celebrity game.
-	 */
+    /**
+     * The GUI frame for the Celebrity game.
+     */
 
-	/**
-	 * The ArrayList of Celebrity values that make up the game
-	 */
+    /**
+        * The ArrayList of Celebrity values that make up the game
+     */
+     private ArrayList <Celebrity> celebs;
+     public String currentCelebrity;
+    /**
+     * Builds the game and starts the GUI
+     */
+    public CelebrityGame()
+    {
+        celebs = new ArrayList <Celebrity>();
+        currentCelebs = new Celebrity("Filthy Frank", "He's pink and he says it is time to STOP");
+        celebs.add(currentCelebs);
+    }
 
-	/**
-	 * Builds the game and starts the GUI
-	 */
-	public CelebrityGame()
-	{
-	}
+    /**
+     * Prepares the game to start by re-initializing the celebGameList and having the gameFrame open the start screen.
+     */
+    public void prepareGame()
+    {
+    }
 
-	/**
-	 * Prepares the game to start by re-initializing the celebGameList and having the gameFrame open the start screen.
-	 */
-	public void prepareGame()
-	{
-	}
+    /**
+     * Determines if the supplied guess is correct.
+     * 
+     * @param guess
+     *            The supplied String
+     * @return Whether it matches regardless of case or extraneous external
+     *         spaces.
+     */
+    public boolean processGuess(String guess)
+    {
+        return false;
+    }
 
-	/**
-	 * Determines if the supplied guess is correct.
-	 * 
-	 * @param guess
-	 *            The supplied String
-	 * @return Whether it matches regardless of case or extraneous external
-	 *         spaces.
-	 */
-	public boolean processGuess(String guess)
-	{
-		return false;
-	}
+    /**
+     * Asserts that the list is initialized and contains at least one Celebrity.
+     * Sets the current celebrity as the first item in the list. Opens the game
+     * play screen.
+     */
+    public void play()
+    {
+        
+    }
 
-	/**
-	 * Asserts that the list is initialized and contains at least one Celebrity.
-	 * Sets the current celebrity as the first item in the list. Opens the game
-	 * play screen.
-	 */
-	public void play()
-	{
-		
-	}
+    /**
+     * Adds a Celebrity of specified type to the game list
+     * 
+     * @param name
+     *            The name of the celebrity
+     * @param guess
+     *            The clue(s) for the celebrity
+     * @param type
+     *            What type of celebrity
+     */
+    public void addCelebrity(String name, String guess, String type)
+    {
+        
+    }
 
-	/**
-	 * Adds a Celebrity of specified type to the game list
-	 * 
-	 * @param name
-	 *            The name of the celebrity
-	 * @param guess
-	 *            The clue(s) for the celebrity
-	 * @param type
-	 *            What type of celebrity
-	 */
-	public void addCelebrity(String name, String guess, String type)
-	{
-		
-	}
+    /**
+     * Validates the name of the celebrity. It must have at least 4 characters.
+     * @param name The name of the Celebrity
+     * @return If the supplied Celebrity is valid
+     */
+    public boolean validateCelebrity(String name)
+    {
+        return false;
+    }
 
-	/**
-	 * Validates the name of the celebrity. It must have at least 4 characters.
-	 * @param name The name of the Celebrity
-	 * @return If the supplied Celebrity is valid
-	 */
-	public boolean validateCelebrity(String name)
-	{
-		return false;
-	}
+    /**
+     * Checks that the supplied clue has at least 10 characters or is a series of clues
+     * This method would be expanded based on your subclass of Celebrity.
+     * @param clue The text of the clue(s)
+     * @param type Supports a subclass of Celebrity 
+     * @return If the clue is valid.
+     */
+    public boolean validateClue(String clue, String type)
+    {
+        return false;
+    }
 
-	/**
-	 * Checks that the supplied clue has at least 10 characters or is a series of clues
-	 * This method would be expanded based on your subclass of Celebrity.
-	 * @param clue The text of the clue(s)
-	 * @param type Supports a subclass of Celebrity 
-	 * @return If the clue is valid.
-	 */
-	public boolean validateClue(String clue, String type)
-	{
-		return false;
-	}
+    /**
+     * Accessor method for the current size of the list of celebrities
+     * 
+     * @return Remaining number of celebrities
+     */
+    public int getCelebrityGameSize()
+    {
+        return 0;
+    }
 
-	/**
-	 * Accessor method for the current size of the list of celebrities
-	 * 
-	 * @return Remaining number of celebrities
-	 */
-	public int getCelebrityGameSize()
-	{
-		return 0;
-	}
+    /**
+     * Accessor method for the games clue to maintain low coupling between
+     * classes
+     * 
+     * @return The String clue from the current celebrity.
+     */
+    public String sendClue()
+    {
+        return null;
+    }
 
-	/**
-	 * Accessor method for the games clue to maintain low coupling between
-	 * classes
-	 * 
-	 * @return The String clue from the current celebrity.
-	 */
-	public String sendClue()
-	{
-		return null;
-	}
-
-	/**
-	 * Accessor method for the games answer to maintain low coupling between
-	 * classes
-	 * 
-	 * @return The String answer from the current celebrity.
-	 */
-	public String sendAnswer()
-	{
-		return null;
-	}
+    /**
+     * Accessor method for the games answer to maintain low coupling between
+     * classes
+     * 
+     * @return The String answer from the current celebrity.
+     */
+    public String sendAnswer()
+    {
+        return null;
+    }
 }
