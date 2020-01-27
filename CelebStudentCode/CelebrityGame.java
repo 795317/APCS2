@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 /**
- * The framework for the Celebrity Game project
+ * Celebrity Game project
  * 
- * @author cody.henrichsen
- * @version 2.3 25/09/2018 refactored the prepareGame and play methods
+ * @author Nikhitha Nair
+ * @version 2.3 01/27/2020 refactored the prepareGame and play methods
  */
 public class CelebrityGame
 {
@@ -19,16 +19,15 @@ public class CelebrityGame
     /**
         * The ArrayList of Celebrity values that make up the game
      */
-     private ArrayList <Celebrity> celebs;
-     public String currentCelebrity;
+     private ArrayList <String> celebGameList;
+     
     /**
      * Builds the game and starts the GUI
      */
     public CelebrityGame()
     {
-        celebs = new ArrayList <Celebrity>();
-        currentCelebs = new Celebrity("Filthy Frank", "He's pink and he says it is time to STOP");
-        celebs.add(currentCelebs);
+       String gameCelebrity = "";
+        
     }
 
     /**

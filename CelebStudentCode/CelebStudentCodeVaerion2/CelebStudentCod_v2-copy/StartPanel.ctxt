@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=StartPanel
+comment0.text=\r\n\ The\ start\ screen\ for\ the\ CelebrityGame\ app.\r\n\ \r\n\ @author\ cody.henrichsen\r\n\ @version\ 2.1\ 18/09/2018\ Refactored\ away\ validation\ to\ controller.\r\n
+comment1.params=controller
+comment1.target=StartPanel(CelebrityGame)
+comment1.text=\r\n\ Constructs\ a\ StartPanel\ with\ a\ reference\ to\ the\ game\ passed\ as\ a\r\n\ parameter\ to\ be\ used\ as\ a\ data\ member.\r\n\ \r\n\ @param\ controller\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ reference\ to\ the\ game\r\n
+comment2.params=answerText\ clueText
+comment2.target=boolean\ validate(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Validation\ method\ for\ the\ text\ to\ create\ a\ Celebrity\ instance.\r\n\ \r\n\ @param\ answerText\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ name\ of\ the\ Celebrity.\ Validation\ requires\ at\ least\ 4\r\n\ \ \ \ \ \ \ \ \ \ \ \ characters.\r\n\ @param\ clueText\r\n\ \ \ \ \ \ \ \ \ \ \ \ The\ text\ for\ the\ clue.\ Validation\ depends\ on\ the\ selected\r\n\ \ \ \ \ \ \ \ \ \ \ \ Celebrity\ type,\ but\ at\ least\ 10\ characters\ are\ required.\r\n\ @return\ Whether\ the\ appropriate\ text\ amounts\ are\ filled\ and\ the\ correct\r\n\ \ \ \ \ \ \ \ \ type\ of\ clue\ is\ given.\r\n
+comment3.params=
+comment3.target=void\ setupPanel()
+comment3.text=\r\n\ Adds\ all\ components\ to\ the\ StartPanel\ and\ uses\ the\ SpringLayout\ variable,\r\n\ panelLayout,\ as\ the\ layout\ manager.\r\n
+comment4.params=
+comment4.target=void\ setupLayout()
+comment4.text=\r\n\ Uses\ the\ Springlayout\ constraint\ system\ to\ place\ all\ GUI\ components\ on\r\n\ screen.\ All\ constraints\ grouped\ together\ to\ keep\ code\ clean\ and\r\n\ maintainable.\r\n
+comment5.params=
+comment5.target=void\ setupListeners()
+comment5.text=\r\n\ Used\ to\ link\ all\ Listeners\ to\ the\ associated\ GUI\ components.\r\n
+comment6.params=mouseClick
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=mouseClick
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=
+comment8.target=void\ invalidInput()
+comment9.params=
+comment9.target=void\ addToGame()
+numComments=10
