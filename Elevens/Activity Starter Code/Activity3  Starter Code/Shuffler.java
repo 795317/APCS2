@@ -16,7 +16,7 @@ public class Shuffler {
      */
     public static void main(String[] args) {
         System.out.println("Results of " + SHUFFLE_COUNT +
-            " consecutive perfect shuffles:");
+            "consecutive perfect shuffles:");
         int[] values1 = new int[VALUE_COUNT];
         for(int i = 0; i < values1.length; i++){
             values1[i] = i;
