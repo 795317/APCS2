@@ -16,7 +16,7 @@ public abstract class Board {
 	/**
 	 * The deck of cards being used to play the current game.
 	 */
-	private Deck deck;
+	private Deck[] deck;
 
 	/**
 	 * Flag used to control debugging print statements.
